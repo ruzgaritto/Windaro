@@ -26,7 +26,7 @@ def start():
     ikinokta.pack(side=LEFT, padx=10, pady=10)
     saniyegostergesi.pack(side=LEFT, padx=10, pady=10)
     while a >= 0:
-        b = 5
+        b = 59
         while b >= 0:
             saniyegostergesi.config(text=b)
             saniyegostergesi.update()
